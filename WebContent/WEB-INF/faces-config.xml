@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config> 
+    <managed-bean>
+        <managed-bean-name>
+            bulletinBoard
+        </managed-bean-name>
+        <managed-bean-class>
+            edu.npu.cs532.BulletinBoard
+        </managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>
+            readArticle
+        </managed-bean-name>
+        <managed-bean-class>
+            edu.npu.cs532.ReadArticle
+        </managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>
+            loginBean
+        </managed-bean-name>
+        <managed-bean-class>
+            edu.npu.cs532.LoginBean
+        </managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>
+            articleBean
+        </managed-bean-name>
+        <managed-bean-class>
+            edu.npu.cs532.ArticleBean
+        </managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <navigation-rule>
+        <from-view-id>login.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>bad-name</from-outcome>
+            <to-view-id>/WEB-INF/results/bad-name.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>bad-password</from-outcome>
+            <to-view-id>/WEB-INF/results/bad-password.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/WEB-INF/results/success.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    
+    
+</faces-config>

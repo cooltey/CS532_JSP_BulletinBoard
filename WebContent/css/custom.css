@@ -1,0 +1,80 @@
+body, h3, a, small, h1{
+	font-family: 微軟正黑體;
+}
+
+.footer{
+	text-align: center;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.auto_selectbar{
+	width: 250px;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+
+.article-title{
+	font-size: 25px;
+	color: #115e87;
+}
+
+.article{
+	min-height: 200px;	
+}
+
+.article-footer b{
+	color: #6f97db;
+}
+
+.login{
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	
+}
+
+.download_icon{
+	margin-right: 5px;
+}
+
+.margin_box{
+	margin: 5px;
+	margin-left: 0px;
+}
+
+.small_font{
+	font-size: 14px;
+}
+
+.anim{
+	text-align: center;
+	margin: 0 auto;
+}
+.loading_anim{
+	text-align: center;
+	width: 70px;
+}
+
+.navbar-right{
+	margin-right: 0px;
+}
+
+th{
+	background: rgb(99, 155, 220);
+	font-size: 16px;	
+}
+
+th a{
+	color: #FFFFFF;
+}
+
+th a:hover{
+	color: #000000;
+}
+
+.manage, .manage:hover{
+	margin-top: -9px;
+}

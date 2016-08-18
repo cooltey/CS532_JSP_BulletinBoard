@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NPU_Java_CS532_HW6_Web">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/NPU_Java_CS532_HW6_Web/build/classes"/>
+        <property name="context-root" value="cs532_project"/>
+    </wb-module>
+</project-modules>
